@@ -4,12 +4,12 @@
     - dev
 ---
 spring:
-  profiles:dev #dev环境
+  profiles: dev #dev环境
   application:
-    name:microservicecloud-config-zxs-dev
+    name: microservicecloud-config-zxs-dev
 ---
 spring:
-  profiles:test  #测试环境
+  profiles: test  #测试环境
   application:
-    name:micoservicecloud-config-zxs-test
+    name: micoservicecloud-config-zxs-test
 #请保存为utf-8格式
